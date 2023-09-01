@@ -100,7 +100,7 @@ html {
 .img  {
     padding-top: 50%;
     margin-top: 44px;
-    background: url(/assets/img/slider/slider1.jpg) top center / 100% no-repeat;
+    background: url(../img/slider/slider1.jpg) top center / 100% no-repeat;
     position: relative;
     z-index: -1;
 }
