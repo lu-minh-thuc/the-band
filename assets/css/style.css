@@ -280,7 +280,7 @@ html {
     color: white;
     background-color: black;
     font-size: 15px;
-    padding: 12px 16px;
+    padding: 13px 16px;
     margin-bottom: 16px;
     border: 0;
 }
@@ -338,6 +338,7 @@ html {
     right: 0;
     padding: 12px;
     color: white;
+    font-size: 18px;
 }
 
 .modal-head > i:hover {
@@ -368,9 +369,10 @@ html {
 }
 
 .modal-body input {
-    padding: 8px;
+    padding: 13px 8px;
     outline: none;
     border: #ccc solid 0.5px;
+    font-size: 15px;
 }
 
 .modal-body button {
@@ -390,7 +392,7 @@ html {
 }
 
 .modal-footer p {
-    font-size: 15px;
+    font-size: 18px;
     margin: 15px 16px 31px 0;
     float: right;
 }
@@ -398,12 +400,20 @@ html {
 .modal-footer a {
     color: #2196f3;
     margin-left: 4px;
+    padding: 5px 0;
 }
 
 /* begin: contact */
+.contact-info li {
+    line-height: 1.5;
+}
 .contact-body {
     font-size: 18px;
     padding: 32px 0;
+}
+
+.contact-body .contact-info ul li {
+    line-height: 2 !important;
 }
 
 .contact-info ul {
@@ -416,7 +426,7 @@ html {
 
 .contact-body div input {
     width: 97%;
-    padding: 10px 16px !important;
+    padding: 13px 16px !important;
     outline: none;
     border: #ccc solid 1px;
     font-size: 15px
@@ -562,5 +572,32 @@ html {
     .contact-body div .margin-left {
         margin-left: 0% !important;
     }
+
+    .contact-content div input{
+        margin-top: 12px;
+    }
+
+    .footer-icon ul li {
+        font-size: 25px;
+        margin: 0 8px;
+    }
+
+    .footer-text p {
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .footer-text p a {
+        padding: 20px 0;
+    }
 }
 
+@media (max-width: 500px) {
+    .contact-body .input-send {
+        width: 100%;
+    }
+
+    .place-text button {
+        width: 100%;
+    }
+}
